@@ -1,0 +1,13 @@
+run,config,model,task,null,sensors,window,n_conv,params,best_epoch,train_min,test_F1_weighted,test_F1_macro,test_acc
+A_cnn,A_cnn,cnn,gestures,True,all,24,4,7486546,66,50.7,0.8691,0.4496,0.8808
+A_gru,A_gru,deepconvlstm,gestures,True,all,24,4,2990418,58,50.1,0.893,0.6175,0.8937
+B_conv1,B_conv1,deepconvlstm,gestures,True,all,24,1,3904146,27,27.2,0.8875,0.5891,0.8877
+B_conv2,B_conv2,deepconvlstm,gestures,True,all,24,2,3924690,37,28.7,0.8881,0.6086,0.8899
+C_w20,C_w20,deepconvlstm,gestures,True,all,20,4,3965778,79,30.5,0.898,0.6152,0.8983
+C_w60,C_w60,deepconvlstm,gestures,True,all,60,4,3965778,28,103.3,0.8944,0.5949,0.895
+D_no_dropout,D_no_dropout,deepconvlstm,gestures,True,all,24,4,3965778,30,86.0,0.8911,0.5846,0.8956
+D_no_weightdecay,D_no_weightdecay,deepconvlstm,gestures,True,all,24,4,3965778,56,88.6,0.8886,0.6057,0.8876
+D_with_augment,D_with_augment,deepconvlstm,gestures,True,all,24,4,3965778,41,81.8,0.8852,0.5851,0.8875
+E_warmup,E_warmup,deepconvlstm,gestures,True,all,24,4,3965778,28,22.6,0.8925,0.6138,0.8946
+F_focal,F_focal,deepconvlstm,gestures,True,all,24,4,3965778,64,29.1,0.8873,0.5886,0.8878
+ref,ref,deepconvlstm,gestures,True,all,24,4,3965778,25,36.2,0.8806,0.5368,0.8789

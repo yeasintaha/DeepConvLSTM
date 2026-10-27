@@ -1,0 +1,24 @@
+                  precision    recall  f1-score   support
+
+            Null      0.936     0.964     0.950      8235
+     Open Door 1      0.558     0.500     0.527        58
+     Open Door 2      0.788     0.839     0.812        93
+    Close Door 1      0.500     0.667     0.571        60
+    Close Door 2      0.775     0.841     0.807        82
+     Open Fridge      0.876     0.491     0.630       230
+    Close Fridge      0.684     0.771     0.725       157
+ Open Dishwasher      0.447     0.550     0.493       100
+Close Dishwasher      0.462     0.462     0.462        78
+   Open Drawer 1      0.426     0.513     0.465        39
+  Close Drawer 1      0.583     0.500     0.538        42
+   Open Drawer 2      0.581     0.450     0.507        40
+  Close Drawer 2      0.833     0.185     0.303        27
+   Open Drawer 3      0.571     0.492     0.529        65
+  Close Drawer 3      0.378     0.617     0.468        60
+     Clean Table      0.800     0.444     0.571        99
+  Drink from Cup      0.802     0.497     0.614       318
+   Toggle Switch      0.767     0.430     0.551       107
+
+        accuracy                          0.896      9890
+       macro avg      0.654     0.567     0.585      9890
+    weighted avg      0.896     0.896     0.891      9890
